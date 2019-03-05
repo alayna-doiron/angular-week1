@@ -1,0 +1,15 @@
+<form>
+
+<input type="number" [(ngModel)]="numOne" name="numOne" required>
+<input type="number" [(ngModel)]="numTwo" name="numOne" required>
+
+<br><br>
+<button (click)="add()">+</button><br>
+<button (click)="subtract()">-</button><br>
+<button (click)="multiply()">x</button><br>
+<button (click)="divide()">/</button><br>
+
+<br>
+Answer: {{answer}}
+
+</form>
